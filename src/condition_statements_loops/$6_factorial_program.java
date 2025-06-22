@@ -8,8 +8,18 @@ public class $6_factorial_program {
 		
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the number");
+		if(!scanner.hasNextInt())
+		{
+			System.out.println("Enter the values in integer");
+			return;
+		}
 		int num=scanner.nextInt();
 		int factorial=1;
+		if(num<0)
+		{
+			System.out.println("Negative factorial not allowed");
+			return;
+		}
 		if(num<=0)
 		{
 			System.out.println(factorial);

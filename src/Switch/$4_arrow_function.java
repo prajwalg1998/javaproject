@@ -4,7 +4,7 @@ public class $4_arrow_function {
 
 	public static void main(String[] args) {
 		
-		int a=0010;
+		int a=0002;
 		
 		switch(a)
 		{
